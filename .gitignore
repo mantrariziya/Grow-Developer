@@ -1,0 +1,54 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+# Do not ignore .env.example
+
+# Node (if added later)
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Python (if added later)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Build output
+dist/
+build/
+out/
+
+# Credentials & secrets
+*firebase*adminsdk*.json
+*.pem
+*.key
+serviceAccountKey.json
+
+# ML models
+*.pkl
+*.h5
+*.model
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
